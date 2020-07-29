@@ -1,7 +1,7 @@
 # Setup
 title:               'Cloudish Wind'
 tagline:             ''
-description:         'blog'
+description:         ''
 url:                 https://cloudishwind.github.io
 baseurl:             ''
 paginate:            5
