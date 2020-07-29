@@ -6,7 +6,7 @@ title: Tags
 <div class="page">
   <span>
     {% for tag in site.tags %}
-      &nbsp;&nbsp;<a href="#{{ tag[0] | slugify }}">{{ tag[0] }}({{ tag[1].size }})</a>
+      &nbsp;&nbsp;<a href="#{{ tag[0] | slugify }}">#{{ tag[0] }}({{ tag[1].size }})</a>
     {% endfor %}
   </span>
   
