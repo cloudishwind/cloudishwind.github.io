@@ -1,0 +1,26 @@
+# Setup
+title:               'Cloudish Wind'
+tagline:             ''
+description:         'blog'
+url:                 https://cloudishwind.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              hwanki_jung
+  url:               https://cloudishwind.github.io
+  email:             infin23@naver.com
+  
+# github
+github:
+  repo:              https://github.com/cloudishwind  
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: UA-173940308-1
