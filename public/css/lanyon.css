@@ -38,8 +38,6 @@
 html,
 body {
   overflow-x: hidden;
-  tab-size: 2;
-  -moz-tab-size: 2;
 }
 
 html {
