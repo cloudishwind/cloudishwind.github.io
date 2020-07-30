@@ -20,6 +20,7 @@ tags: ["anaconda", "vscode"]
 1. bat파일 생성
   * {프로젝트디렉토리}/.vscode/vscode.bat 으로 생성함
     * (위치, 파일명 제한없음)
+    * (위치, 파일명 제한없음)
     > set CONDA_FORCE_32BIT=1
 2. User 또는 Workspace setting 추가
   * {프로젝트디렉토리}/.vscode/settings.json
@@ -27,6 +28,7 @@ tags: ["anaconda", "vscode"]
     > "terminal.integrated.shellArgs.windows": ["/K", "C:\\...\\vscode.bat"]
 3. 결과확인
   * VS Code에서 디버깅 실행시 conda 가상환경이 activate되기 전에 set CONDA_FORCE_32BIT=1 명령어가 수행됨
+    1. 들여쓰기
 
 
 ### 참고사이트
