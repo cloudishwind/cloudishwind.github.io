@@ -117,7 +117,7 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-left: 0.5rem;
+  margin-left: -1rem;
   margin-bottom: 1rem;
 }
 
