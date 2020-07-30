@@ -18,7 +18,8 @@ tags: ["anaconda", "vscode"]
 ### 해결방법
 
 1. bat파일 생성
-  * {프로젝트디렉토리}/.vscode/vscode.bat 으로 생성함(위치, 파일명 제한없음)
+  * {프로젝트디렉토리}/.vscode/vscode.bat 으로 생성함
+    * (위치, 파일명 제한없음)
     > set CONDA_FORCE_32BIT=1
 2. User 또는 Workspace setting 추가
   * {프로젝트디렉토리}/.vscode/settings.json
