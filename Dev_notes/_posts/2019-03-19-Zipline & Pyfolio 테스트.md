@@ -64,4 +64,4 @@ pyfolio.create_full_tear_sheet() 호출 결과
 > Alpha 0.01  
 > Beta 0.22
 
-![pyfolio_20190319]({{ site.baseurl }}{{post.categories}}/images/pyfolio_20190319.png)
+![pyfolio_20190319]({{post.path}}/images/pyfolio_20190319.png)
