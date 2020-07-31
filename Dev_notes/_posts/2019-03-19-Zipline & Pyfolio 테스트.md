@@ -80,5 +80,4 @@ pyfolio.create_full_tear_sheet() 호출 결과
 * {{ site.categories[0] }}
 
 
-![pyfolio_20190319]({{post.path}}/images/pyfolio_20190319.png)
-![pyfolio_20190319_dir]({{ post.dir }}/images/pyfolio_20190319.png)
+![pyfolio_20190319]({{site.img_url.dev_notes}}/pyfolio_20190319.png)
