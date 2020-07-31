@@ -12,7 +12,7 @@ tags: ["zipline", "python"]
 ### zipline 
 KODEX200(069500) 기초자산의 데이터를 Pandas.Panel 객체로 구성
 
-```python
+```
   <class 'pandas.core.panel.Panel'>
   Dimensions: 1 (items) x 3943 (major_axis) x 5 (minor_axis)
   Items axis: 069500 to 069500
