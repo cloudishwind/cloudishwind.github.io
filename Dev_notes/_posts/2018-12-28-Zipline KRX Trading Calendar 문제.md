@@ -8,7 +8,10 @@ tags: ["zipline", "python"]
 * python version : 3.5 (32bits)
 * zipline version : 1.3.0
 
-zipline 샘플 구동시 KOSPI 개장일부터 일봉을 받아 돌려보니 index error 발생. #TradingCanlendar 문제로 보이며 #KRX 에 맞는 #Canlendar 를 만들어야 함
+zipline 샘플로 테스트시, KOSPI 개장일부터 일봉을 받아 돌려보니 index error가 발생하였습니다. TradingCanlendar가 KOSPI 일봉데이터와 맞지 않는 문제였습니다. KRX에 맞는 Custom Canlendar를 만들어야만 했습니다.
+
+zipline Tutorial에서 예제로 제공하는 캘린더 source는 아래와 같습니다. 잘못된 소스와 메소드명을 정리하였습니다.
+
 
 ```python
 class TFSExchangeCalendar(TradingCalendar):
