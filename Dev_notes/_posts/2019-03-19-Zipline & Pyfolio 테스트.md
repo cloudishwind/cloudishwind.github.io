@@ -46,20 +46,20 @@ KODEX200(069500) 기초자산의 데이터를 Pandas.Panel 객체로 구성
 
 pyfolio.create_full_tear_sheet() 호출 결과
 
-> Annual return 2.8%
-> Cumulative returns 14.4%
-> Annual volatility 5.0%
-> Sharpe ratio 0.57
-> Calmar ratio 0.27
-> Stability 0.50
-> Max drawdown -10.5%
-> Omega ratio 1.18
-> Sortino ratio 0.88
-> Skew 1.34
-> Kurtosis 31.21
-> Tail ratio 1.22
-> Daily value at risk -0.6%
-> Gross leverage 0.56
-> Daily turnover 3.0%
-> Alpha 0.01
+> Annual return 2.8%  
+> Cumulative returns 14.4%  
+> Annual volatility 5.0%  
+> Sharpe ratio 0.57  
+> Calmar ratio 0.27  
+> Stability 0.50  
+> Max drawdown -10.5%  
+> Omega ratio 1.18  
+> Sortino ratio 0.88  
+> Skew 1.34  
+> Kurtosis 31.21  
+> Tail ratio 1.22  
+> Daily value at risk -0.6%  
+> Gross leverage 0.56  
+> Daily turnover 3.0%  
+> Alpha 0.01  
 > Beta 0.22
