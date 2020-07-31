@@ -1,5 +1,6 @@
 ---
 layout: page
+categories: blog
 title: Categories
 ---
 
