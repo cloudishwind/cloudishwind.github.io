@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anaconda 64bit 환경에서 32bit conda environment 사용시 VSCode 설정방법
-tags: ["anaconda", "vscode"]
+tags: ["python", "anaconda", "vscode"]
 ---
 
 ### 환경
