@@ -12,8 +12,8 @@ tags: ["VC++"]
 | Visual Studio 2010 VC++ 재배포 가능 패키지 | C++10 |
 | Visual Studio 2012 VC++ 재배포 가능 패키지 | C++11 |
 | Visual Studio 2013 VC++ 재배포 가능 패키지 | C++12 |
-| Visual Studio 2015 VC++ 재배포 가능 패키지 | C++14 Visual Studio Build Tools 2019 에 포함되어 있음 |
-| Visual Studio 2017 VC++ 재배포 가능 패키지 | C++15 Visual Studio Build Tools 2019 에 포함되어 있음 |
+| Visual Studio 2015 VC++ 재배포 가능 패키지 | C++14 (Visual Studio Build Tools 2019 에 포함되어 있음) |
+| Visual Studio 2017 VC++ 재배포 가능 패키지 | C++15 (Visual Studio Build Tools 2019 에 포함되어 있음) |
 
 
 ### 다운로드 링크
