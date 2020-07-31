@@ -10,22 +10,29 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
-
+    <a class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}" href="{{ '/pages/about/' | absolute_url }}">About</a>
+    <a class="sidebar-nav-item{% if page.title == 'Tags' %} active{% endif %}" href="{{ '/pages/tags/' | absolute_url }}">Tags</a>
+  </nav>
+  
+  <div class="sidebar-item">
+    <p/>
+  </div>
+  
+  <nav class="sidebar-nav">
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
-
+    
+    <span class="sidebar-nav-item">Categories</span>
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}
-        {% if node.layout == "page" and node.categories != "project" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
+        {% if node.layout == "page" and node.categories == "blog" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}"> - {{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
-    
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">GitHub Project</a>
     
     <span class="sidebar-nav-item">Projects</span>
     {% assign pages_list = site.pages | sort:"url" %}
@@ -43,7 +50,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} {{site.author.name}}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} <a href={{site.author.name}}. All rights reserved.
     </p>
   </div>
 </div>
