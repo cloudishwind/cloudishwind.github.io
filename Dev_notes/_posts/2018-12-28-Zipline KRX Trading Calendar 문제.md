@@ -66,7 +66,7 @@ class TFSExchangeCalendar(TradingCalendar):
     #출처 : http://www.zipline.io/trading-calendars.html#building-a-custom-trading-calendar (2019.01.14)
 ```
 
-1. open_time() 에서 잘못된 부분  
+1. open_time() 에서 잘못된 부분
   - 메소드 명 : open_times()
   - 리턴 데이터형 : [(None, time object)]
 2. close_time() 에서 잘못된 부분
