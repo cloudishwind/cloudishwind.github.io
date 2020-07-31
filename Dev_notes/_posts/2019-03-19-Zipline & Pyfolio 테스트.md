@@ -30,7 +30,8 @@ KODEX200(069500) 기초자산의 데이터를 Pandas.Panel 객체로 구성
 
       #run algo
       perf = zipline.run_algorithm(start=start, end=end,
-                                  initialize=initialize, handle_data=handle_data,
+                                  initialize=initialize, 
+                                  handle_data=handle_data,
                                   capital_base=100000,
                                   data_frequency='daily', 
                                   data=symbol_panel,
