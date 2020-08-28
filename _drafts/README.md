@@ -7,7 +7,8 @@ title:
 
 ```
 ---
-layout: posts
+layout: post
 title: 
+tags: [""]
 ---
 ```
