@@ -1,8 +1,8 @@
 # Setup
-title:               'Cloudish Wind'
+title:               'hjung23.github.io'
 tagline:             ''
 description:         ''
-url:                 https://cloudishwind.github.io
+url:                 https://hjung23.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -10,12 +10,12 @@ permalink:           pretty
 # About/contact
 author:
   name:              hwanki_jung
-  url:               https://cloudishwind.github.io
+  url:               https://hjung23.github.io
   email:             infin23@naver.com
   
 # github
 github:
-  repo:              https://github.com/cloudishwind  
+  repo:              https://github.com/hjung23  
 
 # Gems
 plugins:
