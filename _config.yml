@@ -1,8 +1,8 @@
 # Setup
-title:               'cloudishwind'
+title:               'YEONUALPHA'
 tagline:             ''
 description:         ''
-url:                 https://cloudishwind.github.io
+url:                 https://yeonualpha.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -10,12 +10,12 @@ permalink:           pretty
 # About/contact
 author:
   name:              hwanki_jung
-  url:               https://cloudishwind.github.io
+  url:               https://yeonualpha.github.io
   email:             infin23@naver.com
   
 # github
 github:
-  repo:              https://github.com/cloudishwind  
+  repo:              https://github.com/yeonualpha  
 
 # Gems
 plugins:
