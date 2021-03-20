@@ -21,3 +21,5 @@ tags: ["zipline", "python"]
 * git clone https://github.com/shlomikushchi/zipline-trader.git
 * activate py36_32
 * pip install -e .
+
+* pip uninstall jedi
